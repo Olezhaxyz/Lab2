@@ -11,7 +11,7 @@ void print_array(const int *array, const size_t n)
 void error(){
     int v=1, v1=0;
     bool n;
-    if (v<0.2)
+    if (v<1)
     {
         v=v-1;
     }

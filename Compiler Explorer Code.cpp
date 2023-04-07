@@ -11,10 +11,6 @@ void print_array(const int *array, const size_t n)
 void error(){
     int v=1, v1=0;
     bool n;
-    if (v<1)
-    {
-        v=v-1;
-    }
     int v2= v/v1;
     std::string string=" ";
     int ierr = 0, one = 1;

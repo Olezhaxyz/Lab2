@@ -26,7 +26,7 @@ int main()
 {
     constexpr size_t size = 20;
     int array[size];
-    for (size_t i = 0; i < size + 1; i++)
+    for (size_t i = 0; i < size; i++)
         array[i] = std::rand() % 10;
 
     print_array(array, size);
